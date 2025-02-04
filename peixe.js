@@ -13,10 +13,10 @@ var config = {
 var game = new Phaser.Game(config);
 var tubaraozin;
 var peixinho;
-let pontos = 0;
-let TextoPontos;
-let tv = 3;
-let nivel = 1;
+var pontos = 0;
+var TextoPontos;
+var tv = 3;
+var nivel = 1;
 
 function preload() {
     this.load.image('mar', 'assets/bg_azul-escuro.png')
